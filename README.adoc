@@ -1,6 +1,7 @@
 = Entorno Dockerizado de CI
 
 En este repositorio encontramos un ambiente que incluye lo siguiente:
+In this repository we find an environment that includes the following:
 
 * link:https://jenkins-ci.org/[Jenkins]
 * link:http://www.sonarqube.org/[SonarQube]
@@ -10,14 +11,14 @@ En este repositorio encontramos un ambiente que incluye lo siguiente:
 
 == Pre-requisitos
 
-* Instalar link:https://www.virtualbox.org/wiki/Downloads[VirtualBox].
-* Instalar link:http://docs.docker.com/engine/installation[Docker].
-* Instalar link:https://docs.docker.com/machine/install-machine[Docker Machine].
-* Instalar link:https://docs.docker.com/compose/install[Docker Compose].
+* Instalar/Install link:https://www.virtualbox.org/wiki/Downloads[VirtualBox].
+* Instalar/Install link:http://docs.docker.com/engine/installation[Docker].
+* Instalar/Install link:https://docs.docker.com/machine/install-machine[Docker Machine].
+* Instalar/Install link:https://docs.docker.com/compose/install[Docker Compose].
 
 ó
 
-* Instalar link:https://www.docker.com/docker-toolbox[Docker Toolbox], incluye todo lo anterior.
+* Instalar/Install link:https://www.docker.com/docker-toolbox[Docker Toolbox], incluye todo lo anterior.
 
 == Construcción
 
@@ -37,6 +38,7 @@ docker-compose up // <4>
 <4> Inicia el ambiente.
 
 NOTE: La primera vez puede demorar debido a la descarga de las imágenes en Docker.
+NOTE: The first time may be delayed due to the download of the images in Docker. 
 
 URLs de acceso a:
 
